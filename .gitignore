@@ -1,0 +1,115 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.env
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyTorch
+*.pt
+*.pth
+checkpoint*.pt
+model*.pt
+best_model*.pt
+.pkl
+
+# Outputs and Results
+outputs/
+results/mcsrp/*/
+Tours_output/*.csv
+Animation_output/
+
+# TensorBoard
+runs/
+logs/
+tensorboard_logs/
+
+# CSV files (generated)
+*.csv
+!ugv_road.csv
+!generated_scenarios/*.csv
+
+# Data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Misc
+.cache/
+.coverage
+htmlcov/
+
+# Project specific
+__pycache__/
+*.pyc
+*.pyo
